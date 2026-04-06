@@ -18,6 +18,7 @@ spec:
       containers:
         - name: hello-app
           image: dancegep/hello-app:dev
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
           env:
